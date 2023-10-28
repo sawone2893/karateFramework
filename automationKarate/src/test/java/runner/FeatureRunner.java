@@ -6,7 +6,7 @@ class FeatureRunner {
     
     @Karate.Test
     Karate testUsers() {
-        return Karate.run("../features/users").relativeTo(getClass());
+        return Karate.run("../features/retreiveUsers").relativeTo(getClass());
     }    
 
 }
